@@ -95,7 +95,10 @@ a:link {
 body {
 	margin: 0px 0px 0px 0px;
 	word-wrap: break-word;
+}
 
+.vimeo {
+	display: none;
 }
 
 img {
