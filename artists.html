@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-
+<head>
+    <!-- ... (meta tags, title, links) ... -->
     <title>audiovisu.al/artists</title>
-    
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css">
-    
-    <!-- import the webpage's javascript file -->
+    <!-- import the webpage's JavaScript file -->
     <script src="/script.js" defer></script>
+    <style>
+        .artist-link img {
+            display: none; /* Initially hide the image. */
+            position: absolute; /* Position the image over the link. */
+            z-index: -1;
+            width: 75vh;
+        }
 
-  </head>  
-  <body>
-    <h1><a href= "https://audiovisu.al">audiovisu.al</a>/artists</h2>
+        .artist-link:hover img {
+            display: block; /* Display the image on hover. */
+            z-index: -1;
+            /*margin-top: -35vh;*/
+            width: 75vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="https://audiovisu.al">audiovisu.al</a>/artists</h1>
+    <h2 class="artist-link">
+        <a href="https://audiovisu.al/artists/brandon_l">
+            /brandon_l
+            <img src="artists/brandon.jpg">
+        </a>
+    </h2>
+    <h2 class="artist-link">
+        <a href="https://audiovisu.al/artists/heoliene">
+            /heoliene
+            <img src="artists/heoliene.jpg">
+        </a>
+    </h2>
+    <h2 class="artist-link">
+        <a href="https://audiovisu.al/artists/maymo">
+            /maymo
+            <img src="artists/maymo.jpg">
+        </a>
+    </h2>
+    <h2 class="artist-link">
+        <a href="https://audiovisu.al/artists/rain_garden">
+            /rain_garden
+            <img src="artists/raingarden.jpg">
+        </a>
+    </h2>
+    <h2 class="artist-link">
+        <a href="https://audiovisu.al/artists/strauhal">
+            /strauhal
+            <img src="artists/image5.png">
+        </a>
+    </h2>
 
-    <h2><a href= "https://audiovisu.al/artists/brandon_l">/brandon_l</a></h2>
-    <h2><a href= "https://audiovisu.al/artists/heoliene">/heoliene</a></h2>
-    <h2><a href= "https://audiovisu.al/artists/maymo">/maymo</a></h2>
-    <h2><a href= "https://audiovisu.al/artists/rain_garden">/rain_garden</a></h2>
-    <h2><a href= "https://audiovisu.al/artists/strauhal">/strauhal</a></h2>
-
-    <!-- <script src="https://button.glitch.me/button.js" defer></script> -->
-  </body>
+</body>
 </html>
-

@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.jpg">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="/favicon-32x32.jpg">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="/favicon-16x16.jpg">
     <link rel="manifest" href="/site.webmanifest">
 
 
-    <title>audiovisu.al</title>
+    <title>audiovisu.al/releases</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -18,15 +18,71 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
 
+    <style>
+      .release-link img {
+          display: none; /* Initially hide the image. */
+          position: absolute; /* Position the image over the link. */
+          z-index: -1;
+          width: 75vh;
+      }
+
+      .release-link:hover img {
+          display: block; /* Display the image on hover. */
+          z-index: -1;
+          /*margin-top: -35vh;*/
+          width: 75vh;
+          margin-left: auto;
+          margin-right: auto;
+      }
+    </style>
+
   </head>  
   <body>
-    <h1><a href= "http://audiovisu.al">audiovisu.al</a></h2>
+    <h1><a href= "http://audiovisu.al">audiovisu.al</a>/releases</h2>
 
-      <p>
+    <h2 class="release-link">
+        <a href="https://audiovisu.al/artists/av.al0001">
+            /av.al0001
+            <img src="releases/aval1.jpg">
+        </a>
+    </h2>
+    <h2 class="release-link">
+        <a href="https://audiovisu.al/artists/av.al0002">
+            /av.al0002
+            <img src="releases/aval2.jpg">
+        </a>
+    </h2>
+    <h2 class="release-link">
+        <a href="https://audiovisu.al/artists/av.al0003">
+            /av.al0003
+            <img src="releases/aval3.jpg">
+        </a>
+    </h2>
+    <h2 class="release-link">
+        <a href="https://audiovisu.al/artists/av.al0004">
+            /av.al0004
+            <img src="releases/aval4.jpg">
+        </a>
+    </h2>
+    <h2 class="release-link">
+        <a href="https://audiovisu.al/artists/av.al0005">
+            /av.al0005
+            <img src="releases/aval5.jpg">
+        </a>
+    </h2>
+    <h2 class="release-link">
+        <a href="https://audiovisu.al/artists/av.al0006">
+            /av.al0005
+            <img src="releases/aval6.jpg">
+        </a>
+    </h2>
+    <h2 class="release-link">
+        <a href="https://audiovisu.al/artists/av.al0007">
+            /av.al0007
+            <img src="releases/aval7.jpg">
+        </a>
+    </h2>
 
-        <!-- info here -->
-
-      </p>
     <!-- <script src="https://button.glitch.me/button.js" defer></script> -->
   </body>
 </html>
