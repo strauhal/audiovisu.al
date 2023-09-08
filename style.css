@@ -90,6 +90,39 @@ a:link {
 	color: #fff;
 }
 
+.artist-link img {
+    filter: grayscale(100%) contrast(200%);
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 75vh;
+}
+
+.artist-link:hover img {
+    display: block; /* Display the image on hover. */
+    z-index: -1;
+    /*margin-top: -35vh;*/
+    width: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.release-link img {
+	display: none;
+	position: absolute;
+	z-index: -1;
+	width: 75vh;
+}
+
+.release-link:hover img {
+	display: block; /* Display the image on hover. */
+	z-index: -1;
+	/*margin-top: -35vh;*/
+	width: 75vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media (max-width: 900px) {
 
 body {
@@ -98,6 +131,14 @@ body {
 }
 
 .vimeo {
+	display: none;
+}
+
+.artist-link {
+	display: none;
+}
+
+.release-link {
 	display: none;
 }
 
