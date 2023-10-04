@@ -118,6 +118,14 @@ a:link {
 		margin: 0px 0px 0px 0px;
 		word-wrap: break-word;
 	}
+	.artist-link img{
+		display: block;
+		position: relative;
+	}
+	.release-link img{
+		display: block;
+		position: relative;
+	}
 
 	.vimeo {
 		display: none;
