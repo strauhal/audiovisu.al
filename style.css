@@ -119,10 +119,12 @@ a:link {
 		word-wrap: break-word;
 	}
 	.artist-link img{
+		width: 50vw;
 		display: block;
 		position: relative;
 	}
 	.release-link img{
+		width: 50vw;
 		display: block;
 		position: relative;
 	}
