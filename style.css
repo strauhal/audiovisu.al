@@ -25,12 +25,8 @@ img {
 }
 
 iframe {
-    position: absolute;
-    margin-left: 10vw;
-    top: 0;
-    left: 0;
-    width: 75%;
-    height: 75%;
+	width: 50vw;
+	margin-left: 10vw;	
 }
 
 p {
