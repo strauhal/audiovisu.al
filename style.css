@@ -7,7 +7,7 @@ body {
 	background-color: #000;
 	font-family: micro;
 	font-weight: bold;
-	z-index: 1;
+	z-index: 9;
 	overflow-x: none;
 }
 
@@ -17,7 +17,7 @@ img {
 }
 
 .vimeo {
-	z-index: -1;
+	z-index: -9;
 	margin-top: -512px;
 	display: block;
 	width: 75vh;
@@ -53,6 +53,7 @@ h2 {
 	font-family: micro;
 	font-weight: 100;
 	margin-left: 5vw;
+	z-index: 9;
 }
 
 h3 {
