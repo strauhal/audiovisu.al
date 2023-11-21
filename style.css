@@ -16,6 +16,12 @@ img {
 	margin-left: 10vw;
 }
 
+.large img {
+	width: 80vw;
+	height: 80vh;
+	margin-left: 10vw;
+}
+
 .vimeo {
 	z-index: -9;
 	margin-top: -512px;
@@ -28,7 +34,7 @@ img {
 iframe {
 	width: 80vw;
 	height: 80vh;
-	margin-left: 10vw;		
+	margin-left: 10vw;
 }
 
 p {
